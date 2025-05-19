@@ -1,0 +1,33 @@
+.map-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.map-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 80px);
+  grid-template-rows: repeat(6, 80px);
+  gap: 5px;
+  justify-content: center;
+}
+
+.map-cell {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.room {
+  background-color: #f8f8f8;
+}
+
+.path {
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+}

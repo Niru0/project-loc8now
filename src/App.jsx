@@ -4,6 +4,7 @@ import QRScanner from "./components/QRScanner";
 import DestinationInput from "./components/DestinationInput";
 import MapView from "./components/MapView";
 
+
 function App() {
   const [step, setStep] = useState("logo");
   const [source, setSource] = useState(null);
